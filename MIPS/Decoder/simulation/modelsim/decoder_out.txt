@@ -1,0 +1,3 @@
+Iniciando o TestBench---------------------|Linha|  A  |              Y                 |
+Testes Efetuados = 32
+Errors Encontrados = 32

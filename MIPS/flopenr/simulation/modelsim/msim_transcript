@@ -1,0 +1,111 @@
+# Reading C:/intelFPGA_pro/19.3/modelsim_ase/tcl/vsim/pref.tcl
+# do flopenr_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work gate_work 
+# Copying C:/intelFPGA_pro/19.3/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {flopenr.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:28:52 on Mar 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." flopenr.vo 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 16:28:52 on Mar 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench {C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench/flopenr_rb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 16:28:55 on Mar 12,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench" C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench/flopenr_rb.sv 
+# -- Compiling module flopenr_rb
+# 
+# Top level modules:
+# 	flopenr_rb
+# End time: 16:28:55 on Mar 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc" flopenr_rb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L cycloneii_ver -L gate_work -L work -voptargs=""+acc"" flopenr_rb 
+# Start time: 16:28:55 on Mar 12,2020
+# Loading sv_std.std
+# Loading work.flopenr_rb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flopenr_rb/flopenr File: flopenr.vo Line: 74
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flopenr_rb/flopenr File: flopenr.vo Line: 110
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flopenr_rb/flopenr File: flopenr.vo Line: 146
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flopenr_rb/flopenr File: flopenr.vo Line: 182
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flopenr_rb/flopenr File: flopenr.vo Line: 199
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_lcell_ff' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flopenr_rb/flopenr File: flopenr.vo Line: 235
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /flopenr_rb/flopenr File: flopenr.vo Line: 248
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./flopenr_run_msim_gate_verilog.do PAUSED at line 12
+# End time: 16:29:24 on Mar 12,2020, Elapsed time: 0:00:29
+# Errors: 22, Warnings: 0

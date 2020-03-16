@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/julio/Programacao/Concepcao/MIPS/Decoder/simulation/modelsim
+vdecoder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1584383143
+!i10b 1
+!s100 f6;SOmUcnJN1YSi0K`C6I1
+!s11b ]GCOKf<zTTILEaHI<T`Lk0
+Iz]Pg0[ADz8A6OIM>=TFFC0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z4 w1584103374
+Z5 8C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/decoder.sv
+Z6 FC:/Users/julio/Programacao/Concepcao/MIPS/Decoder/decoder.sv
+L0 35
+Z7 OV;L;2019.2;69
+r1
+!s85 0
+31
+Z8 !s108 1584383141.000000
+Z9 !s107 C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/decoder.sv|
+Z10 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/Decoder|C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/decoder.sv|
+!i113 1
+Z11 o-sv -work work
+Z12 !s92 -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/Decoder
+Z13 tCvgOpt 0
+vdecoder2x4
+R1
+R2
+!i10b 1
+!s100 MIVPB[g8mbNL`4B>2Sf>L2
+!s11b N>6@hY=gf[U7gfd27eTzQ2
+IX77FZEn54O70FnY]`>Pa?3
+R3
+S1
+R0
+R4
+R5
+R6
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vdecoder3x8
+R1
+R2
+!i10b 1
+!s100 CJTeVOLQ6:BbK@Lm5b31J0
+!s11b bkkR4m0H`m3DQ:Nz:`4]?2
+I7E5h69hba243UFGJGTdaA3
+R3
+S1
+R0
+R4
+R5
+R6
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vdecoder_tb
+R1
+R2
+!i10b 1
+!s100 [_0TI2mS=;P`bD=UNKPf23
+!s11b dzBHQ8mQFDJL?L8BSaPf=0
+ImhEJb_A@ZO:bECd@kAFfo0
+R3
+S1
+R0
+w1584103243
+8C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench/decoder_tb.sv
+FC:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench/decoder_tb.sv
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1584383143.000000
+!s107 C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench/decoder_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench|C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench/decoder_tb.sv|
+!i113 1
+R11
+!s92 -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench
+R13

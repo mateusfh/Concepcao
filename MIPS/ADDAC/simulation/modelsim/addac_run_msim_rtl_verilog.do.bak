@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+

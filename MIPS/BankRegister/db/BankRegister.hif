@@ -1,0 +1,255 @@
+Quartus II
+Version 9.1 Build 222 10/21/2009 SJ Web Edition
+11
+3500
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+flopenr
+# storage
+db|BankRegister.(1).cnf
+db|BankRegister.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|julio|programacao|concepcao|mips|flopenr|flopenr.sv
+70cfe7212a3f8c3ea8a7bd7a4270f3cd
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+WIDTH
+32
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+flopenr:regFile
+}
+# macro_sequence
+
+# end
+# entity
+mux2
+# storage
+db|BankRegister.(2).cnf
+db|BankRegister.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|julio|programacao|concepcao|mips|mux|mux.sv
+c1109a8227af7fde4037f61483d69641
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+WIDTH
+32
+PARAMETER_SIGNED_DEC
+USR
+}
+# hierarchies {
+mux2:muxinho1
+mux2:muxinho2
+}
+# macro_sequence
+
+# end
+# entity
+BankRegister
+# storage
+db|BankRegister.(0).cnf
+db|BankRegister.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bankregister.sv
+85f415473d2022601be758d54249a6d
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+decoder
+# storage
+db|BankRegister.(3).cnf
+db|BankRegister.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|julio|programacao|concepcao|mips|decoder|decodificador|decoder.sv
+1c91acb99976422c656f66ce6828a4ca
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+decoder:decofica
+}
+# macro_sequence
+
+# end
+# entity
+decoder2x4
+# storage
+db|BankRegister.(4).cnf
+db|BankRegister.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|julio|programacao|concepcao|mips|decoder|decodificador|decoder.sv
+1c91acb99976422c656f66ce6828a4ca
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+decoder:decofica|decoder2x4:decoder2x4_0
+}
+# macro_sequence
+
+# end
+# entity
+decoder3x8
+# storage
+db|BankRegister.(5).cnf
+db|BankRegister.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|julio|programacao|concepcao|mips|decoder|decodificador|decoder.sv
+1c91acb99976422c656f66ce6828a4ca
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+decoder:decofica|decoder3x8:decoder3x8_0
+decoder:decofica|decoder3x8:decoder3x8_1
+decoder:decofica|decoder3x8:decoder3x8_2
+decoder:decofica|decoder3x8:decoder3x8_3
+}
+# macro_sequence
+
+# end
+# complete
+

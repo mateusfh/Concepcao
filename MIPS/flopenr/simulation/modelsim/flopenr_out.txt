@@ -1,0 +1,1 @@
+Iniciando o TestBench---------------------|Linha| CLK | RST | EN  |  D  |  Q  |

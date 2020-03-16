@@ -1,0 +1,3 @@
+Iniciando o TestBench---------------------|Linha| CLK | RST |  D  |  Q  || 0 | 1 | 0 | 0 | OK| 1 | 1 | 0 | 0 | OK| 0 | 1 | 1 | 0 | OK| 1 | 1 | 1 | 0 | OK| 0 | 0 | 0 | 0 | OK| 1 | 0 | 0 | 0 | OK| 0 | 0 | 1 | 0 | OK| 1 | 0 | 1 | 1 | OK
+Testes Efetuados = 8
+Errors Encontrados = 0

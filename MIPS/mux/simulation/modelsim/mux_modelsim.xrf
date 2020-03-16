@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench/mux_tb.sv
+source_file = 1, C:/Users/julio/Programacao/Concepcao/MIPS/mux/mux2.sv
+source_file = 1, C:/Users/julio/Programacao/Concepcao/MIPS/mux/db/mux.cbx.xml
+source_file = 1, mux2.tv
+design_name = mux2
+instance = comp, \d0~I , d0, mux2, 1
+instance = comp, \d1~I , d1, mux2, 1
+instance = comp, \s~I , s, mux2, 1
+instance = comp, \y~0 , y~0, mux2, 1
+instance = comp, \y~I , y, mux2, 1

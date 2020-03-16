@@ -1,0 +1,137 @@
+# Reading C:/intelFPGA_pro/19.3/modelsim_ase/tcl/vsim/pref.tcl
+# do mux_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work gate_work 
+# Copying C:/intelFPGA_pro/19.3/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {mux.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 08:34:49 on Mar 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." mux.vo 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 08:34:50 on Mar 13,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench/mux_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 08:34:50 on Mar 13,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench/mux_tb.sv 
+# -- Compiling module mux4_tb
+# 
+# Top level modules:
+# 	mux4_tb
+# End time: 08:34:50 on Mar 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc" mux_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L cycloneii_ver -L gate_work -L work -voptargs=""+acc"" mux_tb 
+# Start time: 08:34:50 on Mar 13,2020
+# ** Error: (vsim-3170) Could not find 'mux_tb'.
+#         Searched libraries:
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mux_run_msim_gate_verilog.do PAUSED at line 12
+do mux_run_msim_gate_verilog.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work gate_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {mux.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 08:35:33 on Mar 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." mux.vo 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 08:35:33 on Mar 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench/mux_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 08:35:33 on Mar 13,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/mux/Testbench/mux_tb.sv 
+# -- Compiling module mux_tb
+# 
+# Top level modules:
+# 	mux_tb
+# End time: 08:35:33 on Mar 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc" mux_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L cycloneii_ver -L gate_work -L work -voptargs=""+acc"" mux_tb 
+# Start time: 08:34:50 on Mar 13,2020
+# Loading sv_std.std
+# Loading work.mux_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_tb/dut File: mux.vo Line: 69
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_tb/dut File: mux.vo Line: 105
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_tb/dut File: mux.vo Line: 141
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_tb/dut File: mux.vo Line: 177
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3033) Instantiation of 'cycloneii_io' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /mux_tb/dut File: mux.vo Line: 194
+#         Searched libraries:
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+#             C:/Users/julio/Programacao/Concepcao/MIPS/mux/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./mux_run_msim_gate_verilog.do PAUSED at line 12
+# End time: 08:36:18 on Mar 13,2020, Elapsed time: 0:01:28
+# Errors: 17, Warnings: 0

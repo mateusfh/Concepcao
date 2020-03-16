@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/julio/Programacao/Concepcao/MIPS/mux41/Testbench/mux4_tb.sv
+source_file = 1, C:/Users/julio/Programacao/Concepcao/MIPS/mux/mux2.sv
+source_file = 1, C:/Users/julio/Programacao/Concepcao/MIPS/mux/mux4.sv
+source_file = 1, C:/Users/julio/Programacao/Concepcao/MIPS/mux41/db/mux4.cbx.xml
+source_file = 1, mux4.tv
+design_name = mux4
+instance = comp, \s0~I , s0, mux4, 1
+instance = comp, \d2~I , d2, mux4, 1
+instance = comp, \d3~I , d3, mux4, 1
+instance = comp, \s1~I , s1, mux4, 1
+instance = comp, \d0~I , d0, mux4, 1
+instance = comp, \d1~I , d1, mux4, 1
+instance = comp, \dut3|y~0 , dut3|y~0, mux4, 1
+instance = comp, \dut3|y~1 , dut3|y~1, mux4, 1
+instance = comp, \y~I , y, mux4, 1

@@ -1,0 +1,107 @@
+# Reading C:/intelFPGA_pro/19.3/modelsim_ase/tcl/vsim/pref.tcl
+# do decoder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Copying C:/intelFPGA_pro/19.3/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/Decoder {C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 15:25:41 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/Decoder" C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/decoder.sv 
+# -- Compiling module decoder2x4
+# -- Compiling module decoder3x8
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 15:25:43 on Mar 16,2020, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench/decoder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 15:25:43 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench/decoder_tb.sv 
+# -- Compiling module decoder_tb
+# 
+# Top level modules:
+# 	decoder_tb
+# End time: 15:25:43 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" decoder_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" decoder_tb 
+# Start time: 15:25:44 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.decoder_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.decoder
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.decoder2x4
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.decoder3x8
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando o TestBench
+# ---------------------
+# |Linha|  A  |              Y                 |
+# | 0 | 00000 |xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx|10000000000000000000000000000000|
+# | 1 | 10000 |00000000000000000000000000000001|01000000000000000000000000000000|
+# | 2 | 01000 |00000000000000010000000000000000|00100000000000000000000000000000|
+# | 3 | 11000 |00000000000000000000000100000000|00010000000000000000000000000000|
+# | 4 | 00100 |00000001000000000000000000000000|00001000000000000000000000000000|
+# | 5 | 10100 |00000000000000000000000000010000|00000100000000000000000000000000|
+# | 6 | 01100 |00000000000100000000000000000000|00000010000000000000000000000000|
+# | 7 | 11100 |00000000000000000001000000000000|00000001000000000000000000000000|
+# | 8 | 00010 |00010000000000000000000000000000|00000000100000000000000000000000|
+# | 9 | 10010 |00000000000000000000000000000100|00000000010000000000000000000000|
+# | 10 | 01010 |00000000000001000000000000000000|00000000001000000000000000000000|
+# | 11 | 11010 |00000000000000000000010000000000|00000000000100000000000000000000|
+# | 12 | 00110 |00000100000000000000000000000000|00000000000010000000000000000000|
+# | 13 | 10110 |00000000000000000000000001000000|00000000000001000000000000000000|
+# | 14 | 01110 |00000000010000000000000000000000|00000000000000100000000000000000|
+# | 15 | 11110 |00000000000000000100000000000000|00000000000000010000000000000000|
+# | 16 | 00001 |01000000000000000000000000000000|00000000000000001000000000000000|
+# | 17 | 10001 |00000000000000000000000000000010|00000000000000000100000000000000|
+# | 18 | 01001 |00000000000000100000000000000000|00000000000000000010000000000000|
+# | 19 | 11001 |00000000000000000000001000000000|00000000000000000001000000000000|
+# | 20 | 00101 |00000010000000000000000000000000|00000000000000000000100000000000|
+# | 21 | 10101 |00000000000000000000000000100000|00000000000000000000010000000000|
+# | 22 | 01101 |00000000001000000000000000000000|00000000000000000000001000000000|
+# | 23 | 11101 |00000000000000000010000000000000|00000000000000000000000100000000|
+# | 24 | 00011 |00100000000000000000000000000000|00000000000000000000000010000000|
+# | 25 | 10011 |00000000000000000000000000001000|00000000000000000000000001000000|
+# | 26 | 01011 |00000000000010000000000000000000|00000000000000000000000000100000|
+# | 27 | 11011 |00000000000000000000100000000000|00000000000000000000000000010000|
+# | 28 | 00111 |00001000000000000000000000000000|00000000000000000000000000001000|
+# | 29 | 10111 |00000000000000000000000010000000|00000000000000000000000000000100|
+# | 30 | 01111 |00000000100000000000000000000000|00000000000000000000000000000010|
+# | 31 | 11111 |00000000000000001000000000000000|00000000000000000000000000000001|
+# Testes Efetuados = 32
+# Errors Encontrados = 32
+# Testes Efetuados  = 32
+# Erros Encontrados = 32
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench/decoder_tb.sv(68)
+#    Time: 1440 ns  Iteration: 0  Instance: /decoder_tb
+# Break in Module decoder_tb at C:/Users/julio/Programacao/Concepcao/MIPS/Decoder/Testbench/decoder_tb.sv line 68
+# End time: 15:39:32 on Mar 16,2020, Elapsed time: 0:13:48
+# Errors: 12, Warnings: 0

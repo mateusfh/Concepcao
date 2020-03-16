@@ -1,0 +1,1171 @@
+# Reading C:/intelFPGA_pro/19.3/modelsim_ase/tcl/vsim/pref.tcl
+# do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Copying C:/intelFPGA_pro/19.3/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:16:46 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:16:46 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:16:46 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:16:46 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:16:46 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:16:46 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:16:47 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:16:47 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:16:47 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:16:47 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:16:47 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# ** Error: (vlog-13069) C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(11): near "(": syntax error, unexpected '('.
+# End time: 11:16:47 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_pro/19.3/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./addac_run_msim_rtl_verilog.do line 14
+# C:/intelFPGA_pro/19.3/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac..."
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:17:23 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:17:23 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:17:23 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:17:24 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:17:24 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:17:24 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:17:24 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:17:24 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:17:24 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:17:24 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:17:24 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:17:25 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:17:25 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# Testes Efetuados  = 8
+# Erros Encontrados = 0
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(52)
+#    Time: 490 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 52
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:18:55 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:18:55 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:18:55 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:18:55 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:18:55 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:18:55 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:18:55 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:18:56 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:18:56 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:18:56 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:18:56 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:18:56 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# End time: 11:19:05 on Mar 16,2020, Elapsed time: 0:01:40
+# Errors: 1, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:19:05 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.addac
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.inv
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# Testes Efetuados  = 8
+# Erros Encontrados = 0
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(53)
+#    Time: 490 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 53
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:24:08 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:24:08 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:24:09 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:24:09 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:24:09 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:24:09 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:24:09 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:24:09 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:24:09 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:24:09 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:24:09 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:24:10 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# End time: 11:24:17 on Mar 16,2020, Elapsed time: 0:05:12
+# Errors: 6, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:24:17 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.addac
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.inv
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  0 |  0  |  0  | 1 |   1  | 0 |  1   | ERRO
+# | 0 | 1  |  0 |  1  |  0  | 1 |   1  | 0 |  1   | ERRO
+# Testes Efetuados  = 10
+# Erros Encontrados = 2
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(53)
+#    Time: 610 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 53
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:25:16 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:25:16 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:25:16 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:25:16 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:25:17 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:25:17 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:25:17 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:25:17 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:25:17 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:25:17 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:25:17 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:25:17 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# End time: 11:25:22 on Mar 16,2020, Elapsed time: 0:01:05
+# Errors: 6, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:25:22 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.addac
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.inv
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  0 |  0  |  0  | 1 |   1  | 1 |  1   | OK
+# | 0 | 1  |  0 |  1  |  0  | 1 |   1  | 1 |  1   | OK
+# Testes Efetuados  = 10
+# Erros Encontrados = 0
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(53)
+#    Time: 610 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 53
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:26:35 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:26:36 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:26:36 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:26:36 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:26:36 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:26:36 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:26:36 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:26:36 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:26:36 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:26:36 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:26:36 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:26:37 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# End time: 11:26:41 on Mar 16,2020, Elapsed time: 0:01:19
+# Errors: 6, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:26:41 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.addac
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.inv
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  0 |  0  |  0  | 1 |   1  | 1 |  1   | OK
+# | 0 | 1  |  0 |  1  |  0  | 1 |   1  | 1 |  1   | OK
+# | 1 | 1  |  0 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# Testes Efetuados  = 11
+# Erros Encontrados = 0
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(53)
+#    Time: 670 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 53
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:27:37 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:27:37 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:27:37 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:27:37 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:27:37 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:27:37 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:27:38 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:27:38 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:27:38 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:27:38 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:27:38 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:27:38 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# End time: 11:27:42 on Mar 16,2020, Elapsed time: 0:01:01
+# Errors: 12, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:27:43 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.addac
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.inv
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  0 |  0  |  0  | 1 |   1  | 1 |  1   | OK
+# | 0 | 1  |  0 |  1  |  0  | 1 |   1  | 1 |  1   | OK
+# | 1 | 1  |  0 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 1  |  0 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  1 |  0  |  0  | 0 |   1  | 1 |  0   | ERRO
+# Testes Efetuados  = 13
+# Erros Encontrados = 1
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(53)
+#    Time: 790 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 53
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:08 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:29:08 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:08 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:29:08 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:08 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:29:08 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:08 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:29:09 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:09 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:29:09 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:09 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:29:09 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# End time: 11:29:13 on Mar 16,2020, Elapsed time: 0:01:30
+# Errors: 13, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:29:13 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.addac
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.inv
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 14 of file "addac.tv". (Current address [13], address range [0:12])    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(18)
+#    Time: 0 ps  Iteration: 0  Instance: /addac_tb
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  0 |  0  |  0  | 1 |   1  | 1 |  1   | OK
+# | 0 | 1  |  0 |  1  |  0  | 1 |   1  | 1 |  1   | OK
+# | 1 | 1  |  0 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 1  |  0 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  1 |  0  |  0  | 0 |   1  | 0 |  1   | OK
+# Testes Efetuados  = 13
+# Erros Encontrados = 0
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(53)
+#    Time: 790 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 53
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:43 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:29:43 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:43 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:29:43 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:43 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:29:43 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:43 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:29:43 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:43 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:29:44 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:29:44 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:29:44 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# End time: 11:29:48 on Mar 16,2020, Elapsed time: 0:00:35
+# Errors: 11, Warnings: 1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:29:48 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.addac
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.inv
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  0 |  0  |  0  | 1 |   1  | 1 |  1   | OK
+# | 0 | 1  |  0 |  1  |  0  | 1 |   1  | 1 |  1   | OK
+# | 1 | 1  |  0 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 1  |  0 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  1 |  0  |  0  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  1 |  1  |  0  | 0 |   1  | 0 |  1   | OK
+# | 1 | 1  |  1 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 1  |  1 |  1  |  0  | 1 |   0  | 0 |  1   | ERRO
+# Testes Efetuados  = 16
+# Erros Encontrados = 1
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(53)
+#    Time: 970 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 53
+# A time value could not be extracted from the current line
+do addac_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:30:11 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/flopenr/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 11:30:11 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2 {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:30:11 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/mux2/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 11:30:11 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:30:11 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/inv/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 11:30:11 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:30:11 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/somador/somador.sv 
+# -- Compiling module somador
+# 
+# Top level modules:
+# 	somador
+# End time: 11:30:12 on Mar 16,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:30:12 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/addac.sv 
+# -- Compiling module addac
+# 
+# Top level modules:
+# 	addac
+# End time: 11:30:12 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench {C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 11:30:12 on Mar 16,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench" C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv 
+# -- Compiling module addac_tb
+# 
+# Top level modules:
+# 	addac_tb
+# End time: 11:30:12 on Mar 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" addac_tb
+# End time: 11:30:16 on Mar 16,2020, Elapsed time: 0:00:28
+# Errors: 15, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=""+acc"" addac_tb 
+# Start time: 11:30:16 on Mar 16,2020
+# Loading sv_std.std
+# Loading work.addac_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.addac
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.inv
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mux2
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.somador
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'cycloneii_ver' at "cycloneii_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.flopenr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Iniciando Testbench
+# | a | s1 | s2 | clk | acc | s | cout | se| cEsp |
+# ------------------------------------------------
+# | 0 | 0  |  0 |  0  |  0  | 0 |   0  | 0 |  0   | OK
+# | 0 | 0  |  0 |  1  |  0  | 0 |   0  | 0 |  0   | OK
+# | 1 | 0  |  0 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  0 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  0  |  1  | 1 |   0  | 1 |  0   | OK
+# | 0 | 0  |  1 |  1  |  1  | 1 |   0  | 1 |  0   | OK
+# | 1 | 0  |  1 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 0  |  1 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  0 |  0  |  0  | 1 |   1  | 1 |  1   | OK
+# | 0 | 1  |  0 |  1  |  0  | 1 |   1  | 1 |  1   | OK
+# | 1 | 1  |  0 |  0  |  1  | 0 |   1  | 0 |  1   | OK
+# | 1 | 1  |  0 |  1  |  1  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  1 |  0  |  0  | 0 |   1  | 0 |  1   | OK
+# | 0 | 1  |  1 |  1  |  0  | 0 |   1  | 0 |  1   | OK
+# | 1 | 1  |  1 |  0  |  0  | 1 |   0  | 1 |  0   | OK
+# | 1 | 1  |  1 |  1  |  0  | 1 |   0  | 1 |  0   | OK
+# Testes Efetuados  = 16
+# Erros Encontrados = 0
+# ** Note: $stop    : C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv(53)
+#    Time: 970 ns  Iteration: 0  Instance: /addac_tb
+# Break in Module addac_tb at C:/Users/julio/Programacao/Concepcao/MIPS/ADDAC/Testbench/addac_tb.sv line 53
+# End time: 11:59:51 on Mar 16,2020, Elapsed time: 0:29:35
+# Errors: 13, Warnings: 0

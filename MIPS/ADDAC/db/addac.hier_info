@@ -1,0 +1,48 @@
+|addac
+a => a.IN2
+sel0 => sel0.IN2
+sel1 => sel1.IN1
+clk => clk.IN1
+acc => acc.IN1
+y <= mux1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= somador:somador.port3
+
+
+|addac|inv:inversor
+a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addac|mux2:m1
+d0 => y.DATAA
+d1 => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addac|somador:somador
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addac|mux2:m2
+d0 => y.DATAA
+d1 => y.DATAB
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|addac|flopenr:dut
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

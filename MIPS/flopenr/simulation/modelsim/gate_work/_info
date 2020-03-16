@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/julio/Programacao/Concepcao/MIPS/flopenr/simulation/modelsim
+vflopenr
+!s110 1584041332
+!i10b 1
+!s100 93;o]aZH4EC6L6?B>fkBK0
+!s11b i?9GkO@[SCH6C`U<T9W7I0
+IAVmPQRRSb`gAZl0H]c[Vb0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1584038479
+8flopenr.vo
+Fflopenr.vo
+L0 31
+Z2 OV;L;2019.2;69
+r1
+!s85 0
+31
+!s108 1584041332.000000
+!s107 flopenr.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|flopenr.vo|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+Z3 tCvgOpt 0
+vflopenr_rb
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1584041335
+!i10b 1
+!s100 0H`oTW=i5:eO_^foh9AFb0
+!s11b HU44]i4Y>PX57;Gbn8W5>2
+I3S=3@R216<5z6GOYcoEK41
+R1
+S1
+R0
+w1584040775
+8C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench/flopenr_rb.sv
+FC:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench/flopenr_rb.sv
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1584041335.000000
+!s107 C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench/flopenr_rb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench|C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench/flopenr_rb.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+C:/Users/julio/Programacao/Concepcao/MIPS/flopenr/TestBench
+R3
